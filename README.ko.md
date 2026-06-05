@@ -2,7 +2,7 @@
 
 [English](README.md) | **한국어**
 
-# PlotDigitizer1234
+# ArrheniusDigitizer
 
 이미지 속 그래프(특히 **아레니우스 플롯**)에서 데이터 점을 클릭만으로 추출해
 `csv` / `json` 으로 저장하는 데스크톱 디지타이저.
@@ -13,9 +13,6 @@
 - 추출 후 **선형 회귀**(기울기·R²) 자동 계산 — 아레니우스 기울기에서 활성화에너지 분석에 활용
 - 한글 라벨/폰트 지원
 
-> ℹ️ **이름 관련**: `PlotDigitizer1234`는 임시 이름입니다. 동명의 기존 서비스
-> (`plotdigitizer.com`, PyPI `plotdigitizer`)와의 혼동을 피하려면 공개 전에 고유한
-> 이름으로 바꾸는 걸 권장합니다.
 
 ---
 
@@ -64,7 +61,7 @@ digitized/<이미지명>.json   # 축 종류·기울기·R² 등 메타데이터
 ## 윈도우 `.exe` 빌드 / 배포
 
 Python·환경설정 없이 더블클릭으로 쓰는 단일 실행파일은 `windows_build/` 에서 빌드합니다.
-빌드 절차와 주의사항은 [`windows_build/README.md`](windows_build/README.md) 참고.
+빌드 절차와 주의사항은 [`READMEexe.md`](READMEexe.md) 참고.
 
 최신 빌드된 `.exe` 는 **[Releases](../../releases)** 탭에서 받을 수 있습니다.
 
