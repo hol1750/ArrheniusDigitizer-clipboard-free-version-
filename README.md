@@ -2,7 +2,7 @@
 
 **English** | [한국어](README.ko.md)
 
-# PlotDigitizer1234
+# ArrheniusDigitizer
 
 A desktop digitizer that extracts data points from graph images
 (especially **Arrhenius plots**) with simple clicks and saves them as `csv` / `json`.
@@ -66,7 +66,7 @@ digitized/<image_name>.json   # axis types, slope, R², and other metadata
 ## Building / distributing the Windows `.exe`
 
 A single-file executable that runs by double-click without Python or setup is built from
-`windows_build/`. See [`windows_build/README.md`](windows_build/README.md) for the build steps
+`windows_build/`. See [`windows_build/README.md`](READMEexe.md) for the build steps
 and notes.
 
 The latest prebuilt `.exe` is available on the **[Releases](../../releases)** tab.
